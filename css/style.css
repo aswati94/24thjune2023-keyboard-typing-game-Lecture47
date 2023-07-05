@@ -1,0 +1,35 @@
+.s_tbdr{
+    border: 1px dashed #000;
+}
+
+.s_mysection{
+    border: 10px solid #0dcaf0 !important;
+
+}
+
+.s_h33{
+    height: 210px !important;
+
+}
+
+.s_row_h35{
+    height: 40px !important;
+}
+
+.s_h33_c{
+    background-image:url(../img/2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+}
+
+.s_btn{
+    border-style: inset;
+    width: 30px;
+    height: 30px;
+    background-color: #B3BFFF;
+    box-shadow: 2px 2px 2px 2px #000;
+}
+
+
+
