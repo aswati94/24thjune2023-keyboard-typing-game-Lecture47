@@ -51,18 +51,15 @@
     }
     .keyboard-key:hover {
         color: #ffffff;
-        border-color: rgba(0, 0, 0, 0.813);
-        
+        border-color: rgba(0, 0, 0, 0.813);  
     }
     .keyboard-key:focus-visible {
         color: #ffffff;
         background-color: #444343;
         border-width: 2px;
-        /* border-color: rgba(117, 107, 107, 0.81); */
         border: none;
         border-style: inset;
         box-shadow: none;
-    
     }
     .keyboard-key.btn-check:checked + .btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check) + .btn:active {
         color: #ffffff;
