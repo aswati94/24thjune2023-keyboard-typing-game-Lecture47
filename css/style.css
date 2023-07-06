@@ -1,32 +1,38 @@
-.s_tbdr{
+/* .s_tbdr{
     border: 1px dashed #000;
 }
 
 .s_mysection{
     border: 10px solid #0dcaf0 !important;
 
+} */
+
+.h_33{
+    height: 170px;
 }
-
-.s_h33{
-    height: 210px !important;
-
+.s_keyboard {
+    min-height: 170px;
+    overflow: hidden;
+    height: 250px;
 }
-
-.s_row_h35{
-    height: 40px !important;
+.s_bg {
+    background-color: #555353;
 }
-
+.s_w_custom{
+    width: 90px !important;
+}
+.s_w_custom_space{
+    width:  350px !important;
+}
 .s_h33_c{
     background-image:url(../img/2.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center bottom;
 }
-
 .keyboard-key{
-    width: 50px;
-    height: 30px;
-    /* box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.600); */
+    width: 55px;
+    height: 34px;
     box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.600);
     border-right-style: outset #444343;
     border-collapse: normal;
@@ -37,12 +43,11 @@
     border-radius: 5px;
     background-color: #444343;
     text-align: center;
-    border-color: rgba(0, 0, 0, 0.813);
+    border-color: rgba( 25, 2, 2, 0.813);
     color: #ffffff;
-    font-size: 12px;
+    font-size: 8px;
     line-height: 10px;
     transition: 5s linear linear;
-    
     }
     .keyboard-key:hover {
         color: #ffffff;
@@ -62,17 +67,8 @@
     .keyboard-key.btn-check:checked + .btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check) + .btn:active {
         color: #ffffff;
         background-color: #444343;
-        border-width: 2px;
+        border-width: 1px;
         border-color: rgba(117, 107, 107, 0.81);
         border-style: inset;
     }
 
-.s_keyboard {
-    min-height: 224px;
-    overflow: auto;
-    height: 302px;
-}
-
-.s_bg {
-    background-color: #555353;
-}
